@@ -4,10 +4,10 @@
 
 /* Font */
 @font-face {
-  font-family: 'Menlo';
+  font-family: 'Menlo-text';
   font-style: normal;
   font-weight: normal;
-  src: local('Menlo Regular'), url('menlo/Menlo-Regular.woff') format('woff');
+  src: local('Menlo Regular'), url('public/menlo/Menlo-Regular.woff') format('woff');
 }
 
 /* https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting */
@@ -176,7 +176,7 @@ body {
   background-color: rgb(30,30,30);
 
   color: white;
-  font-family: "Menlo";
+  font-family: "Menlo-text";
   font-size: 8pt;
 
   border: none;
