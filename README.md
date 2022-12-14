@@ -1,7 +1,7 @@
 # TextEdit-Simulator
 ###### A faithful recreation of MacOS TextEdit 📄
 
-Hello! 👋
+Hello! 👋 Go check out the project [here](https://nalinplad.github.io/TextEdit-Simulator/) if you havent already
 
 This is a recreation of TextEdit, the default text editor of MacOS. If you use MacOS, you can open TextEdit right now to compare. It probably won't be 100% accurate, but I think its pretty close.
 
