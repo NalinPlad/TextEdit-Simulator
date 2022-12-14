@@ -57,7 +57,6 @@ program_TopBar.onmouseup = event => {
 document.onmousemove = event => {
   if (dragging) {
     program_Window.style.margin = `${currentY - (downY - event.clientY)}px ${currentX - (downX - event.clientX)}px`
-    console.log(event.clientY)
   }
 }
 
