@@ -65,6 +65,11 @@ document.onmousemove = event => {
 const textarea = document.querySelector(".text");
 
 if(!localStorage.getItem('text_Content')) {
+  (async () => {
+    const text = await (await fetch("welcome.txt")).text();
+
+    textarea.value = text.slice(0,-1);
+  })();
   localStorage.setItem('text_Content', textarea.value);
 } else {
   textarea.value = localStorage.getItem('text_Content');
