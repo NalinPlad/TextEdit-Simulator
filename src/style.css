@@ -7,7 +7,7 @@
   font-family: 'Menlo-text';
   font-style: normal;
   font-weight: normal;
-  src: local('Menlo Regular'), url('public/menlo/Menlo-Regular.woff') format('woff');
+  src: local('Meanlo Regular'), url('/menlo/Menlo-Regular.woff') format('woff');
 }
 
 /* https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting */
